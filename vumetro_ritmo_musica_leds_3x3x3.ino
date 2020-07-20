@@ -111,8 +111,8 @@ void loop (){
 
 
  //Condicionamos que si el programa lee 4 veces seguidas 0 que se apagen los leds, si no ponemos esto los leds parpadearan mucho
- dado que la velocidad en la uqe el arduino se comunica con la pc es de 9600 si se desea se puede disminuir para ver movimientos
- en el cubo de leds tan continuos.
+ // dado que la velocidad en la uqe el arduino se comunica con la pc es de 9600 si se desea se puede disminuir para ver movimientos
+ //en el cubo de leds tan continuos.
 
 if (Valor1+Valor2+Valor3+Valor4==0){
 
